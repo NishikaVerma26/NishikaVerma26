@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Nishika Verma</h1>
 <h3 align="center">A passionate frontend developer from India</h3>
-<img align="right" alt="Coding" width="400"src="![new-game-ahagon-umiko-programming](https://user-images.githubusercontent.com/125440375/219615551-ac3851c9-876a-4ec8-b45f-24cb4c3f83a2.gif)">
+<img align="right" alt="Coding" width="400"src="https://user-images.githubusercontent.com/125440375/219616014-e584f0da-3c1f-431f-8d1c-46c1b38bf6f2.png">
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=nishikaverma26&label=Profile%20views&color=0e75b6&style=flat" alt="nishikaverma26" /> </p>
 
 - 🌱 I’m currently learning **React js**
