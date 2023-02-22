@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salesforce Web-to-Lead Form</title>
+    <style>
+	.background-color {
+	background-color: #f5f5f5;
+	}
+        /* Style the form container */
+        .form-container {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Style the form labels */
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #333;
+            font-weight: bold;
+        }
+
+        /* Style the form inputs */
+        input[type="text"] {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        /* Style the form submit button */
+        input[type="submit"] {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #0070C0;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Style the form submit button on hover */
+        input[type="submit"]:hover {
+            background-color: #005496;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Salesforce Web-to-Lead Form</h1>
+        <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+            <input type="hidden" name="oid" value="00D2w00000MDIzs">
+            <input type="hidden" name="retURL" value="http://file:///D:/Work%20Docs/tailwind_CSS.html?last-name=ftghvhv&company-name=n">
+
+            <label for="last_name">Last Name</label>
+            <input id="last_name" maxlength="80" name="last_name" size="20" type="text" placeholder="Enter your last name" required>
+
+            <label for="company">Company</label>
+            <input id="company" maxlength="40" name="company" size="20" type="text" placeholder="Enter your company name" required>
+
+            <input type="submit" name="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
